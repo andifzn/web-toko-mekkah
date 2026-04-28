@@ -15,7 +15,7 @@
 }
 
 header {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     height: auto;
     backdrop-filter: blur(10px);
     position: fixed;
@@ -68,9 +68,9 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     height: 100dvh;
-    background-image: url('assets/img/background.webp');
+    background-image: url("assets/img/background.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +131,7 @@ nav {
 
 /* About Section */
 .about {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: var(--primary-color);
     padding: 35px 20px;
 }
@@ -142,14 +142,14 @@ nav {
     gap: 80px;
 }
 
-.about-content { 
+.about-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 15px;
 }
 
-.about-content h2 { 
+.about-content h2 {
     font-size: 1.1rem;
     color: var(--secondary-header-color);
 }
@@ -178,7 +178,6 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
 }
 
 .about-content-list {
